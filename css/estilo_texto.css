@@ -1,0 +1,78 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+}
+h1 {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: #13293D;
+}
+*{
+    background-color: #18435a;
+}
+p{
+    font-size: 16px;
+}
+table th {
+    border-bottom: 2px solid #3e92cc;
+    padding: 1px;
+    background-color: #13293D;
+    color: white;
+}
+
+td {
+    color: #13293D;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Color para la primera columna */
+td:nth-child(even) {
+    background-color: #3e92cc;
+}
+
+td:nth-child(odd) {
+    background-color: white;
+}
+
+img {
+    border-radius: 50%;
+    border: 2px solid #13293D; 
+}
+
+
+hr{
+    background-color: #3e92cc;
+    height: 5px;
+    border-color: #13293D;
+    border-width: 10px;
+    border-top: #13293D;
+}
+a:hover {
+    color: #3e92cc;
+}
+a{
+    color: white;
+    font-size: 20px;
+}
+#lCont{
+    display: flex;
+    max-width: 1rem;
+}
+
+#rLogo{
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    height: 30px;
+}
+
+#lTxt{
+    margin: auto; 
+    margin-left: 0;
+    margin-right: 2px;
+}   
+ul li::marker{
+    content: "🔵";
+}

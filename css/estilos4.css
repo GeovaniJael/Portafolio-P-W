@@ -1,0 +1,64 @@
+/* Propiedades border */
+#div1 {
+    border: 1px solid black;
+}
+
+#div2 {
+    border: 2px dashed red;
+}
+
+#div3 {
+    border: 3px dotted blue;
+    border-radius: 10px;
+}
+
+/* Propiedades margin */
+#div4 {
+    margin: 10px 20px; /* Si se especifican dos valores, el 1o aplica arriba y abajo, y el 2o a los lados */
+}
+
+/* Propiedades box-sizing */
+#div5 {
+    box-sizing: border-box; /* El tamaño total incluye el relleno y el borde */
+}
+
+/* Propiedades overflow */
+#div6 {
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+}
+
+/* Flexbox */
+.contenedor {
+    display: flex;
+    flex-direction: row; /* Por defecto se comporta como una fila */
+    justify-content: center; /* Centra los elementos en la fila */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+.elemento {
+    flex: 1; /* Calcula el tamaño automáticamente */
+}
+
+.elemento-ancho {
+    flex: 2; /* El doble de tamaño que los demás */
+}
+
+/* Grid */
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 columnas de tamaño igual */
+    grid-template-rows: 100px 200px; /* 2 filas de tamaño fijo */
+    grid-gap: 10px; /* Espacio entre las celdas */
+}
+
+.contenedor-1 {
+    grid-template-columns: 1fr 2fr 1fr; /* 3 columnas de tamaño relativo */
+    grid-template-rows: 100px 200px; /* 2 filas de tamaño fijo */
+}
+
+.contenedor-2 {
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de tamaño igual */
+    grid-template-rows: 100px 200px; /* 2 filas de tamaño fijo */
+}
