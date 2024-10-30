@@ -1,0 +1,128 @@
+*{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+code{
+    font-size: 15px;
+    color: #3e92cc;
+}
+label{
+    color: #2a628f;
+}
+td{
+    background-color:  white;
+    color: #13293D;
+    border-radius: 4px;
+    font-weight: bold;
+}
+h6::first-line{
+    text-decoration:overline;
+}
+
+
+iframe{
+    background-color: #2a628f;
+    border-radius: 10px;
+}
+table th {
+    border-bottom: 2px solid #3e92cc;
+    padding: 1px;
+    background-color: #13293D;
+}
+pre {
+    color: #18435a;
+
+}
+h1 {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: #13293D;
+
+}
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+hr{
+    background-color: #3e92cc;
+    height: 5px;
+    border-color: #13293D;
+    border-width: 10px;
+}
+progress :focus{
+    background-color: #3e92cc;
+}
+a{
+    color: #18435a;
+}
+img{
+    border: 3px dashed #3e92cc;
+    width: 100px;
+    height: 100px;
+}
+#headings p:nth-child(odd),
+#headings h2:nth-of-type(odd){
+    font-weight: bold;
+    text-decoration: underline;
+}
+#forms {
+    background-color: #16324F;
+    color: white;
+}
+input:focus{
+    background-color: #3e92cc !important;
+    color: white;
+}
+input[type] {
+    background-color: #13293D;
+    border-radius: 10px;
+}
+
+button:active{
+    background-color: #3e92cc;
+    color: white;
+}
+h4::first-line{
+    background-color: #2a628f;
+}
+#phrasing p::first-letter {
+    font-size: 20px;
+    font-weight: bold;
+}
+a:hover {
+    color: #3e92cc;
+}
+
+video{
+    border: 2px solid #13293D ;
+
+}
+li{
+    font-size: 18px;
+}
+
+ul li::marker{
+    content: "🔵";
+}
+ul li ul li::marker{
+    content: "🟦";
+}
+ul li ul li ul li::marker{
+    content: "💙";
+}
+ol li::marker{
+    content: "⚪";
+}
+ol li ol li::marker{
+    content: "⬜";
+}
+ol li ol li ol li::marker{
+    content: "🤍";
+}
+blockquote::after{
+    font-size: 20px;
+    content: "🌐";
+    border: 2px solid white;
+}
