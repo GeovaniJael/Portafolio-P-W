@@ -28,7 +28,6 @@ td {
     font-weight: bold;
 }
 
-/* Color para la primera columna */
 td:nth-child(even) {
     background-color: #3e92cc;
 }
@@ -38,7 +37,7 @@ td:nth-child(odd) {
 }
 
 img {
-    border-radius: 50%;
+    border-radius: 30%;
     border: 2px solid #13293D; 
 }
 
@@ -57,22 +56,7 @@ a{
     color: white;
     font-size: 20px;
 }
-#lCont{
-    display: flex;
-    max-width: 1rem;
-}
 
-#rLogo{
-    aspect-ratio: 4/3;
-    object-fit: contain;
-    height: 30px;
-}
-
-#lTxt{
-    margin: auto; 
-    margin-left: 0;
-    margin-right: 2px;
-}   
 ul li::marker{
     content: "🔵";
 }
