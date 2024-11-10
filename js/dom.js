@@ -42,13 +42,14 @@ h1.innerText = "Título dinamico"
 parrafo.prepend(h1);
 parrafo.prepend(hr);
 
+let parrafo = document.querySelector("p");
 let padre_parrafo = parrafo.parentElement;
 console.log(padre_parrafo);
 
 let lista = documet.createElement("ol");
 for (let i = 1; 1 <= 5; i++){
     let item = document.createElement("li");
-    item.innerText = `Elemto ${i}`;
+    item.innerText = `Elemento ${i}`;
     lista.appendChild(item);
 }
 
