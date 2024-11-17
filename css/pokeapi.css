@@ -1,0 +1,72 @@
+/* Reset de lista */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    margin: 5px 0;
+    padding-left: 20px;
+    text-indent: -20px;
+}
+
+
+ul li.type-normal::marker {
+    content: "⭐"; 
+}
+ul li.type-fire::marker {
+    content: "🔥"; 
+}
+ul li.type-water::marker {
+    content: "💧"; 
+}
+ul li.type-grass::marker {
+    content: "🍃"; 
+}
+ul li.type-electric::marker {
+    content: "⚡"; 
+}
+ul li.type-ice::marker {
+    content: "❄️"; 
+}
+ul li.type-fighting::marker {
+    content: "🥊"; 
+}
+ul li.type-poison::marker {
+    content: "☠️"; 
+}
+ul li.type-ground::marker {
+    content: "🌍";
+}
+ul li.type-flying::marker {
+    content: "🕊️";
+}
+ul li.type-psychic::marker {
+    content: "🔮"; 
+}
+ul li.type-bug::marker {
+    content: "🐞"; 
+}
+ul li.type-rock::marker {
+    content: "🪨"; 
+}
+ul li.type-ghost::marker {
+    content: "👻"; 
+}
+ul li.type-dark::marker {
+    content: "🌑"; 
+}
+ul li.type-dragon::marker {
+    content: "🐉";
+}
+ul li.type-steel::marker {
+    content: "⚙️";
+}
+ul li.type-fairy::marker {
+    content: "✨";
+}
+ul li.type-unknown::marker {
+    content: "❓"; 
+}
+ul li.type-shadow::marker {
+   content: "🌒"; 
+}

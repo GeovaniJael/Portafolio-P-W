@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    
+    <script src="js/pokeapi.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.blue.min.css">
+    <link rel="stylesheet" href="css/pokeapi.css">
+</head>
+<body>
+    <a href="index.html" style="font-size: 20px;">Inicio🐒</a> <br/>
+    <a href="objetos2.html" style="font-size: 20px;">⬅️ </a>
+    <main class="container">
+        <h1>Uso del método Fetch</h1>
+        <form id="search-form">
+            <label for="pokemon-name-input">Busca un Pokémon:</label>
+            <input type="text" id="pokemon-name-input" placeholder="Ejemplo: pikachu" required>
+            <button type="submit">Buscar</button>
+        </form>
+        <article>
+            <dl>
+                <dt>Nombre</dt>
+                <dd id="pokemon-name"></dd>
+                <dt>Tipos</dt>
+                <dd id="pokemon-types"></dd>
+                <dt>Sprite shinny, porque puedo 😎   </dt>
+                <dd>
+                    <img id="pokemon-image" src="" alt="Imagen del Pokémon">
+                </dd>
+            </dl>
+        </article>
+    </main>
+</body>
+</html>
