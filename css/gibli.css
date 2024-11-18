@@ -1,0 +1,37 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #69c58d;
+    background-color: #d7f0f2;
+    text-align: left;
+    border-radius: 6px;
+
+}
+dialog[open] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://wallpaperaccess.com/full/279646.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+article{
+    background-color: #d7f0f2;
+}
+thead{
+    background-color: #d7f0f2;
+}
+

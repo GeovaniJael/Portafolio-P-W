@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Ghibli Explorer</title>
+    <script src="js/gihibliapi.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.blue.min.css">
+    <link rel="stylesheet" href="css/gibli.css">
+</head>
+<body>
+    <a href="index.html" style="font-size: 20px;">Inicio🐒</a> <br/>
+    <a href="pokeapi.html" style="font-size: 20px;">⬅️</a>
+    <main class="container">
+        <h1>Studio Ghibli Explorer</h1>
+        <button id="pelirandom">🎲 Película Aleatoria</button>
+        <section id="movie-details">
+            <h2>Detalles de la Película</h2>
+            <article>
+                <img id="movie-image" src="https://via.placeholder.com/300x400?text=Studio+Ghibli" alt="Imagen de película">
+                <dl>
+                    <dt>Título</dt>
+                    <dd id="titulo"></dd>
+                    <dt>Director</dt>
+                    <dd id="director"></dd>
+                    <dt>Productor</dt>
+                    <dd id="productor"></dd>
+                    <dt>Descripción</dt>
+                    <dd id="descripcion"></dd>
+                </dl>
+            </article>
+        </section>
+        <section id="lists">
+            <h2>Listados</h2>
+            <div>
+                <h3>Personajes</h3>
+                <table id="personajes">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Edad</th>
+                            <th>Especie</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
