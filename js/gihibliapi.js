@@ -39,26 +39,22 @@ function loadCharactersForMovie(movie) {
     Promise.all(charactersUrls.map(url => fetch(url).then(res => res.json())))
         .then(characters => {
             characters.forEach(character => {
-                // Si 'species' es una URL, hacemos una solicitud adicional
-                let speciesText = character.species || "Desconocida"; // Valor por defecto si no hay especie
+                let speciesText = character.species || "Desconocida"; 
                 if (speciesText.startsWith("https://ghibliapi.vercel.app/species/")) {
-                    // Hacemos una solicitud para obtener el nombre de la especie
                     fetch(speciesText)
                         .then(res => res.json())
                         .then(speciesData => {
-                            speciesText = speciesData.name || "Desconocida"; // Usamos el nombre de la especie
+                            speciesText = speciesData.name || "Desconocida"; 
                             addCharacterRow(character, speciesText);
                         })
                         .catch(console.error);
                 } else {
-                    addCharacterRow(character, speciesText); // Si no es una URL, solo mostramos el texto
+                    addCharacterRow(character, speciesText);
                 }
             });
         })
         .catch(console.error);
 }
-
-// Función para agregar la fila a la tabla
 function addCharacterRow(character, speciesText) {
     const row = document.createElement("tr");
     row.innerHTML = `
