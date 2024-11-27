@@ -59,6 +59,7 @@ th, td {
     border: 1px solid #000000;
     background-color: rgba(215, 240, 242, 0.95);
     text-align: left;
+    color: #333;
     border-radius: 6px;
     text-align: center;
 }
