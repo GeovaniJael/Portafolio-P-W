@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #4d4d4d;
+    background-image: url(https://media.revistagq.com/photos/65b12cd1df908a3c3a4d7373/16:9/w_2560%2Cc_limit/fitness%2520portada.jpg);
+    position: relative;
+}
+
+.x {
+    position: absolute;
+    top: 160px;
+    left: 1180px;
+    fill: none;
+    background-color: #fff;
+    stroke: indianred;
+    stroke-width: 2;
+    border: transparent;
+}
+
+.x svg {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+p{
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #ffffff;
+    width: 1880px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .logo a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+  }
+  
+  .navbar a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar a:hover {
+    color: #ff8120;
+  }
+
+.login-container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    height: 600px;
+    width: 500px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.tabs {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    background-color: #f3f3f9;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.tab {
+    flex: 1;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 30px;
+    background: transparent;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tab.active {
+    background-color: #e3a922;
+    color: #000000;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    text-align: left;
+    margin: 0.5rem 0 0.2rem;
+    font-size: 0.9rem;
+}
+
+.login-form input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.login-form input:focus {
+    border-color: #e3a922;
+}
+
+.login-button {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 30px;
+    background-color: #e3a922;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #ffe600;
+}
+
+.extra-actions {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.extra-actions a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.extra-actions a:hover {
+    text-decoration: underline;
+}
